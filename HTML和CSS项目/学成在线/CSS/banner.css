@@ -1,0 +1,124 @@
+.banner{
+			background-color: #1b046b;
+			height: 420px;
+			}
+		.ban{
+			background: url(../images/banner2.png);
+			position: relative;
+			height: 420px;
+		}
+		.banner ul{
+			list-style: none;
+		}
+		/*接下来弄小盒子*/
+		/*真正内容最大的盒子*/
+		.b-u1{
+			background-color: rgba(20,3,74,0.8);
+			color: #ffffff;
+			padding-left:20px;
+			padding-right: 20px;
+			height: 408px;
+			width: 150px;
+			position: absolute;
+			padding-top: 12px;
+		}
+		.b-u1 li{
+			height: 45px;
+			line-height: 45px;
+			/*display: inline-block;*/
+		}
+		.b-u1 li:nth-child(1) a{
+			color: skyblue;
+			font-size: 12px;
+		}
+		.b-u1 li a{
+			color: #ffffff;
+			font-size: 12px;
+			display: block;
+			/*如果想要a占据一行,那么转块级元素就好*/
+		}
+		.b-u1 li a:hover{
+			color: #07a4de;
+		}
+		.b-u1 li a span{
+			float: right;
+		}
+		.b-u2{
+			position: absolute;
+			left: 50%;
+			margin-left:-90px;
+			bottom: 35px;
+		}
+		.b-u2 li{
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background-color:rgba(255,255,255,0.4);
+			margin-right:15px;
+			float: left;
+		}
+		.b-u2 li:first-child{
+			background-color:#fff;
+			border-radius: 15px;
+			width: 20px; 
+		}
+		.b-r{
+			width: 230px;
+			height: 300px;
+			position: absolute;
+			right: 0;
+			top:50%;
+			margin-top:-140px;
+			background-color:#fff;
+			text-align: center; 
+		}
+		.b-r-top{
+			height: 50px;
+			line-height: 50px;
+			background-color: #9acfea;
+			color: #fff;
+			font-size: 20px;
+			font-style: bold;
+		}
+		.b-r-content{
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 10px;
+			width: 200px;
+		}
+		.b-r-content li{
+			border-bottom: #ccc 1px solid;
+			width: 200px;
+			height: 60px;	
+			text-align: left;
+			line-height: 50px;
+			/* 行高不写单位,代表几倍行高 此处也可以在li中设行高line-hign=1 */
+		}
+		.b-r-content li p{
+			color: #000;
+			font-size: 16px; 
+			height: 16px;
+		}
+		.b-r-content li a{
+			color:#aeaeae;
+			font-size:12px;
+		}
+		.b-r-content li:last-child a{
+			color:skyblue;
+		}
+		.b-r-content li:last-child p{
+			color:skyblue;
+		}
+		.b-r-content li:last-child{
+			border-bottom: none;
+		}
+		.b-r-bottom{
+			color:#01a0ff ;
+			height: 38px;
+			width: 198px;
+			border: skyblue 1px solid;
+			text-align: center;
+			display: inline-block;
+			line-height: 38px;
+			margin-top:10px; 
+		}

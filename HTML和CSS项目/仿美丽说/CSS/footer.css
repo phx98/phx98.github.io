@@ -1,0 +1,99 @@
+.footer{
+	margin-top: 30px;
+	background-color: #f5f5f5;
+	height: 265px;
+	padding-top: 35px;
+}
+.footer .footer-top{
+	height: 196px;
+}
+
+.footer .footer-top dl{
+	float: left;
+	margin-right: 100px;
+}
+.footer dl dt{
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.footer dl dd{
+	height: 40px;
+	line-height: 40px;
+}
+.footer dl dd a{
+	font-size:12px; 
+}
+.footer .focus-us{
+	margin-right: 225px;
+}
+
+.footer .focus-us dd a{
+	position: relative;
+	padding-left: 25px;
+}
+.footer .focus-us dd a span{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	/*border: 1px red solid;*/
+	background: url(../images/footer-icon.png) no-repeat;
+	left: 0px;
+	top:-2px;
+}
+
+.footer .focus-us dd:first-child a span{
+	background-position: 0px 0px;
+
+}
+.footer .focus-us dd:last-child  a span{
+	background-position: -55px 0px;
+}
+.footer .focus-us dd:nth-child(3)  a span{
+	background-position: -27px 0px;
+}
+.footer .wechat-public{
+	margin-right: 50px;
+	height: 140px;
+}
+.footer .wechat-public dt{
+	margin-bottom: 20px;
+}
+.footer .wechat-public dd{
+	width: 130px;
+	text-align: center;
+}
+.footer .app-download{
+	margin-right: 0px;
+	height: 140px;
+}
+.footer .app-download dt{
+	margin-bottom: 20px;
+}
+.footer .app-download dd{
+	width: 135px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .footer-bottom{
+	padding-top: 16px;
+	font-size: 12px;
+	text-align: center;
+	border-top:#dddddd solid 1px; 
+}
+.footer .footer-bottom p{
+	margin-bottom: 12px;
+	color: #666666;
+}

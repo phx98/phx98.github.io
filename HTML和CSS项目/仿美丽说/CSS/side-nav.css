@@ -1,0 +1,98 @@
+.side-nav{
+	position: fixed;
+	right: 0px;
+	background-color:#f8f8f8;
+	height: 100%; 
+	top: 0px;
+	border-left: #dddddd solid 1px;
+	z-index: 9999;
+}
+.side-nav ul li{
+	border-top: #dddddd solid 1px;
+}
+.side-nav ul li:first-child{
+	margin-top: 62px;
+}
+.side-nav ul li a{
+	font-size: 14px;
+	padding-top: 13px;
+	padding-bottom: 20px;
+	padding-right: 12px;
+	padding-left: 12px;
+	display: inline-block;
+	width: 14px;
+}
+.side-nav ul li a:hover{
+	background-color: #f33866;
+	color: #fff;
+}
+.side-nav ul li a:hover .iconfont{
+	color: #fff;
+}
+.side-nav ul li:nth-child(2) a .iconfont{
+	position: relative;
+	right: 3px;
+	top: 0px;
+}
+.side-nav ul li:nth-child(1) a .iconfont{
+	position: relative;
+	right: 1px;
+	top: 0px;
+}
+.side-nav ul li:nth-child(5) a .iconfont{
+	position: relative;
+	right: 1px;
+	top: 0px;
+}
+.side-nav ul li:first-child a p{
+	transform: rotate(90deg);
+	/*word-wrap: break-word;*/
+	/*英文的时候需要加上这句，自动换行*/
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont.woff') format('woff'),
+      url('../fonts/iconfont.ttf') format('truetype'),
+      url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.side-nav .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fc7295;
+}
+.side-nav .side-nav-qr{
+	position: absolute;
+	top: 62px;
+	left: -142px;
+	border: #dddddd solid 1px;
+	display: none;
+}
+.side-nav a:hover .side-nav-qr{
+	display: inline-block;
+}
+.side-nav .side-nav-qr .side-nav-qr-small{
+	border: 12px transparent solid; 
+	border-left: 12px #fff solid;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 50px;
+	left: 140px;
+	z-index: 2;
+}
+.side-nav .side-nav-qr .side-nav-qr-big{
+	border: 13px transparent solid; 
+	border-left: 13px #dddddd solid;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 49px;
+	left: 141px;
+	z-index: 1;
+}

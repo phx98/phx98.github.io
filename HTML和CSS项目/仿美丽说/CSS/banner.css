@@ -1,0 +1,100 @@
+.banner .banner-nav{
+	margin-top: 70px;
+	height: 32px;
+	border-bottom:1px #dedede solid; 
+}
+.banner .banner-nav li a{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	margin-right: 75px;
+	padding-bottom: 10px;
+	
+}
+.banner .banner-nav li a:hover{
+	border-bottom:solid #ff3366 2px;
+	color: #ff3366;
+}
+.banner .banner-nav li:first-child a{
+	border-bottom:solid #ff3366 2px;
+}
+.banner .banner-nav li:last-child a{
+	margin-right: 0px;
+}
+
+
+
+
+
+
+.banner .banner-center{
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+	width: 1200px;
+}
+
+.banner .banner-center #prev{
+	left: 0px;
+	top: 193px;
+}
+.banner .banner-center #next{
+	right: 0px;
+	top: 193px;
+}
+.banner .banner-center .arrow{
+	position: absolute;
+	z-index: 2;
+}
+.banner .banner-center .banner-point{
+	position: absolute;
+	bottom: 0px;
+	left: 540px;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+.banner .banner-center .banner-point span{
+	margin-right:10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color:#fff;
+	display: inline-block;
+	cursor: pointer;
+}
+.banner .banner-center .banner-point .on{
+	width: 22px;
+	height: 10px;
+	border-radius: 20px
+}
+.banner-photo{
+	
+	width: 9600px;
+	position: absolute;
+	z-index: 1;
+	height: 400px;
+}
+.banner .banner-center .banner-main{
+	float: left;
+	width: 1200px;
+	height: 400px;
+}
+
+
+
+
+
+
+.banner .banner-bottom{
+	margin-top: 10px;
+	height: 170px;
+}
+.banner .banner-bottom img{
+	width: 300px;
+	height: 170px;
+	float: left;
+}
+
+
+

@@ -1,0 +1,76 @@
+.header{
+			background:url(../images/logo.png) no-repeat left center;
+			height: 41px;
+			/*line-height: 101px;*/
+			padding-top:30px;
+			padding-bottom:30px;
+			/*border: 1px red solid;*/
+		}
+		.header div{
+			float:left;
+		}
+		.h-stick{
+			margin-left:265px;
+			 height: 100%;
+		}
+		.h-stick a{
+			height: 100%;
+			width: 55px;
+			display: inline-block;
+			font-size: 18px;
+			text-decoration: none;
+			color:#3d4763;
+			text-align:center;
+			/*border:1px red solid;*/
+			margin-right: 25px;
+			line-height: 41px;
+		}
+		.h-stick a:nth-child(1){
+			border-bottom: #02a5ff solid 2px;
+		}
+		.h-stick a:nth-child(3){
+			width: 90px;
+		}
+		.h-stick a:hover{
+			color:#02a5ff;
+		}
+		.h-input{
+			line-height: 41px;
+			height: 41px;
+
+		}
+		.h-input input:first-child{
+			display: inline-block;
+			width: 361px;
+			height: 38px;
+			float: left;
+			border:#00a5ff solid 1px;
+			margin-left: 65px;
+			
+			text-indent:2em;
+			background-color: #f3f6f8;
+		}
+		
+		.h-user{
+			margin-left:30px;
+		}
+		.h-user img{
+			border-radius: 50%;
+			float:left;
+		}
+		.h-user a{
+			
+			color:#3d3e40;
+			height: 41px;
+			display: inline-block;
+			line-height: 41px;
+			text-decoration: none;
+		}
+		.h-user a span{
+			float:left;
+			line-height: 33px;
+			height: 33px;
+		}
+		.h-user a:hover{
+			color: #00b6f9;
+		}

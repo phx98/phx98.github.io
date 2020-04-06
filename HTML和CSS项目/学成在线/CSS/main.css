@@ -1,0 +1,492 @@
+a{
+	color: #7e8181;
+}
+.main{
+	margin-bottom: 40px;
+	background-color: #f3f6f8;
+}
+.m-content1{
+	width: 1200px;
+	height: 600px;
+}
+.m-content1 dt{
+	font-size: 20px;
+	height: 35px;
+	line-height: 35px;
+	margin-top:20px;
+	color: #414444;
+}
+.m-content1 dt a{
+	font-size: 12px;
+	float: right;
+	margin-right:30px;
+	color: #b5b8b8; 
+}
+.m-content1 dd{
+	font-size: 15px;
+	float: left;
+	margin-right: 12px;
+	width: 228px;
+	height: 270px;
+	position: relative;
+	margin-top: 15px;
+}
+.m-content1 dd img{
+	width: 228px;
+	height: 155px;
+	background-size: cover;
+}
+.m-content1 dd a{
+	color:#000;
+}
+.m-content1 dd a:hover{
+	color:skyblue;
+}
+.m-content1 .dd .m-content-dd5{
+	margin-right:0px;
+}
+.m-content1 dd .m-content1-a-buttom{
+	/*margin-top:25px;*/
+	padding: 25px 20px;
+	background-color:#fff; 
+	height: 65px;
+	font-size: 12px;
+	position: relative;
+}
+
+.m-content1 dd .m-content1-a-buttom div:nth-child(2){
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+	color: #9f9f9f;
+	font-size: 12px;
+}
+/*高级字体变红*/
+.m-content1 dd .m-content1-a-buttom div:nth-child(2) span{
+	color: red;
+}
+/*hot标签*/
+.m-content1 dd .m-content-fb1{
+	position: absolute;
+	top: 5px;
+	right: -4px;
+	width: 40px;
+	height: 24px;
+}
+/*new标签*/
+.m-content1 dd .m-content-fb2{
+	position: absolute;
+	top: 5px;
+	right: -4px;
+	width: 40px;
+	height: 24px;
+}
+
+
+
+
+
+.m-content2{
+	margin-top:20px;
+	height: 455px;
+}
+.m-content2 .m-content2-top{
+	padding:20px 0px;
+	font-size: 20px;
+	position: relative;
+}
+.m-content2 .m-content2-top ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px; 
+	margin-left: -200px;
+}
+.m-content2 .m-content2-top ul li{
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	list-style: none;
+}
+.m-content2 .m-content2-top ul li a{
+	font-size: 16px;
+}
+.m-content2 .m-content2-top a:hover{
+	color: #4aa6f1;
+}
+.m-content2 .m-content2-top ul li:first-child a{
+	color: #4aa6f1;
+}
+.m-content2 .m-c2-top-r{
+	font-size: 12px;
+	float: right;
+	margin-right: 30px;
+	line-height: 30px;
+	color: #b5b8b8;
+}
+.m-content2 .m-content2-left{
+	width: 228px;
+	height: 362px;
+	background: url(../images/php1.png);
+	padding-top:30px; 
+	position: relative;
+	float: left;
+}
+.m-content2 .m-content2-left>img{
+	position: absolute;
+	left: 34px;
+	top: 135px;
+
+}
+.m-content2 .m-content2-left>div{
+	width: 165px;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 55px;
+}
+.m-content2 .m-content2-left .m-c2-l-d1{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom:16px; 
+	font-weight: bold;	
+	margin-bottom: 30px;
+}
+.m-content2 .m-c2-top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+.m-content2 .m-content2-right{
+	position: relative;
+	width: 957px;
+	height: 392px;
+	float: left;
+	margin-left:15px; 
+}
+.m-content2 .m-content2-a-buttom{
+	position: relative;
+	background-color:#fff; 
+	padding: 25px 20px;
+	background-color:#fff; 
+	height: 65px;
+	width: 188px;
+	font-size: 12px;
+}
+.m-content2 .m-content2-a-buttom div:nth-child(2){
+	/*margin-top:20px;*/
+	bottom: 25px;
+	left: 20px;
+	color: #9f9f9f;
+	position: absolute;
+	font-size: 12px;
+}
+.m-content2-right .m-content2-a-buttom div:nth-child(2) span{
+	color: red;
+}
+.m-content2-right .m-c2-buttom ul li{
+	margin-top: 125px;
+	float: left;
+	list-style: none;
+	margin-right: 15px;	
+}
+.m-content2-right .m-c2-buttom ul li:last-child{
+	margin-top: 125px;
+	float: left;
+	list-style: none;
+	margin-right: 0px;	
+}
+
+.m-content2-right .m-c2-buttom ul li a:hover{
+	color: skyblue;
+}
+.m-content2-right .m-c2-buttom ul li a{
+	color: #000;
+	font-size: 15px;
+}
+.m-content2-right .m-c2-buttom ul li a>img{
+	width: 228px;
+}
+
+
+
+
+
+
+
+
+
+.m-content3{
+	margin-top:20px;
+	height: 455px;
+}
+.m-content3 .m-content3-top{
+	padding:20px 0px;
+	font-size: 20px;
+	position: relative;
+}
+.m-content3 .m-content3-top ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px; 
+	margin-left: -200px;
+}
+.m-content3 .m-content3-top ul li{
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	list-style: none;
+}
+.m-content3 .m-content3-top ul li a{
+	font-size: 16px;
+}
+.m-content3 .m-content3-top a:hover{
+	color: #4aa6f1;
+}
+.m-content3 .m-content3-top ul li:first-child a{
+	color: #4aa6f1;
+}
+.m-content3 .m-c3-top-r{
+	font-size: 12px;
+	float: right;
+	margin-right: 30px;
+	line-height: 30px;
+	color: #b5b8b8;
+}
+.m-content3 .m-content3-left{
+	width: 228px;
+	height: 362px;
+	background: url(../images/php2.png);
+	padding-top:30px; 
+	position: relative;
+	float: left;
+}
+.m-content3 .m-content3-left>img{
+	position: absolute;
+	left: 34px;
+	top: 135px;
+
+}
+.m-content3 .m-content3-left>div{
+	width: 165px;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 55px;
+}
+.m-content3 .m-content3-left .m-c3-l-d1{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom:16px; 
+	font-weight: bold;	
+	margin-bottom: 30px;
+}
+.m-content3 .m-c3-top{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+}
+.m-content3 .m-content3-right{
+	position: relative;
+	width: 957px;
+	height: 392px;
+	float: left;
+	margin-left:15px; 
+}
+.m-content3 .m-content3-a-buttom{
+	position: relative;
+	background-color:#fff; 
+	padding: 25px 20px;
+	background-color:#fff; 
+	height: 65px;
+	width: 188px;
+	font-size: 16px;
+}
+.m-content3 .m-content3-a-buttom div:nth-child(2){
+	/*margin-top:20px;*/
+	bottom: 25px;
+	left: 20px;
+	color: #9f9f9f;
+	position: absolute;
+	font-size: 12px;
+}
+.m-content3-right .m-content3-a-buttom div:nth-child(2) span{
+	color: red;
+}
+.m-content3-right .m-c3-buttom ul li{
+	margin-top: 125px;
+	float: left;
+	list-style: none;
+	margin-right: 15px;	
+}
+.m-content3-right .m-c3-buttom ul li:last-child{
+	margin-right: 0px;	
+}
+
+.m-content3-right .m-c3-buttom ul li a:hover{
+	color: skyblue;
+}
+.m-content3-right .m-c3-buttom ul li a{
+	color: #000;
+	font-size: 15px;
+}
+.m-content3-right .m-c3-buttom ul li a>img{
+	width: 228px;
+}
+
+
+
+
+.m-content4{
+	margin-top:20px;
+	height: 330px;
+}
+.m-content4 .m-content4-top{
+	padding:20px 0px;
+	font-size: 20px;
+	position: relative;
+}
+.m-content4 .m-content4-top ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px; 
+	margin-left: -200px;
+}
+.m-content4 .m-content4-top ul li{
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	list-style: none;
+}
+.m-content4 .m-content4-top ul li a{
+	font-size: 16px;
+}
+.m-content4 .m-content4-top a:hover{
+	color: #4aa6f1;
+}
+.m-content4 .m-content4-top ul li:first-child a{
+	color: #4aa6f1;
+}
+.m-content4 .m-c4-top-r{
+	font-size: 12px;
+	float: right;
+	margin-right: 30px;
+	line-height: 30px;
+	color: #b5b8b8;
+}
+.m-content4 .m-content4-buttom .m-c4-buttom-a{
+	float: left;
+	width: 228px;
+	margin-right: 15px;
+	height: 270px;
+}
+.m-content4 .m-content4-buttom .m-c4-buttom-a:last-child{
+	margin-right: 0px;
+}
+.m-content4 .m-content4-buttom .m-c4-buttom-a>img{
+	width: 228px;
+}
+.m-content4 .m-c4-buttom{
+	width: 188px;
+	height: 65px;
+	padding: 25px 20px;
+	font-size: 16px;
+	margin-top: 155px;
+	background-color: #fff;
+	position: relative;
+}
+.m-content4 .m-c4-buttom div:nth-child(2) span{
+	color: red;
+}
+.m-content4 .m-c4-buttom div:nth-child(1){
+	color: #000;
+}
+.m-content4 .m-c4-buttom div:nth-child(2){
+	position: absolute;
+	bottom: 20px;
+	left:25px;
+	font-size: 12px;	
+}
+
+
+
+
+
+
+
+
+
+.m-content5{
+	margin-top:20px;
+	height: 330px;
+}
+.m-content5 .m-content5-top{
+	padding:20px 0px;
+	font-size: 20px;
+	position: relative;
+}
+.m-content5 .m-content5-top ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px; 
+	margin-left: -200px;
+}
+.m-content5 .m-content5-top ul li{
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	list-style: none;
+}
+.m-content5 .m-content5-top ul li a{
+	font-size: 16px;
+}
+.m-content5 .m-content5-top a:hover{
+	color: #4aa6f1;
+}
+.m-content5 .m-content5-top ul li:first-child a{
+	color: #4aa6f1;
+}
+.m-content5 .m-c5-top-r{
+	font-size: 12px;
+	float: right;
+	margin-right: 30px;
+	line-height: 30px;
+	color: #b5b8b8;
+}
+.m-content5 .m-content5-buttom .m-c5-buttom-a{
+	float: left;
+	width: 228px;
+	margin-right: 15px;
+	height: 270px;
+}
+.m-content5 .m-content5-buttom .m-c5-buttom-a:last-child{
+	margin-right: 0px;
+}
+.m-content5 .m-c5-buttom{
+	width: 188px;
+	height: 65px;
+	padding: 25px 20px;
+	font-size: 16px;
+	margin-top: 155px;
+	background-color: #fff;
+	position: relative;
+}
+.m-content5 .m-c5-buttom div:nth-child(2) span{
+	color: red;
+}
+.m-content5 .m-c5-buttom div:nth-child(1){
+	color: #000;
+}
+.m-content5 .m-c5-buttom div:nth-child(2){
+	position: absolute;
+	bottom: 20px;
+	left:25px;
+	font-size: 12px;	
+}

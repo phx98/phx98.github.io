@@ -1,0 +1,170 @@
+.main-top{
+	margin-top: 55px;
+}
+.main-top .main-top-title a{
+	font-size: 20px;
+	position: relative;
+}
+.main-top .main-top-title a span{
+	width: 35px;
+	height: 2px;
+	position: absolute;
+	background-color:#e40045;
+	bottom: -10px;
+	left: 25px;
+}
+.main-top .main-top-title .m-t-t-two span{
+	display: none;
+}
+.main-top .main-top-title a:first-child{
+	margin-left: 470px;
+	color: #ff3366;
+	margin-right: 35px;
+}
+
+.main-top .main-top-title a:nth-child(2){
+	color: #000;
+}
+.main-top .main-top-title a:last-child{
+	font-size: 14px;
+	float: right;
+}
+.main-top .main-top-title a:hover{
+	color: #ff3366; 
+}
+.main-top .main-top-title a:hover span{ 
+	display: inline-block;
+}
+
+
+
+
+.main-top .main-top-content-top{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.main-top .main-top-content-top a img{
+	width: 224px;
+}
+.main .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #a4a4a4;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont.woff') format('woff'),
+      url('../fonts/iconfont.ttf') format('truetype'),
+      url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.main .main-t-c-bottom1{
+	margin-top: 12px;
+}
+.main  .main-t-c-bottom1 span:first-child{
+	color: #ff3366;
+}
+.main .main-t-c-bottom1 span:last-child{
+	float: right;
+}
+.main .main-t-c-bottom1 a{
+	float: right;
+}
+.main  .main-t-c-bottom1 .iconfont:hover{
+	color: #ff3366;
+	cursor: pointer;
+}
+.main .main-t-c-bottom2{
+	/*min-width: 0;*/
+	/*flex: 1;*/
+	margin-top: 5px;
+}
+
+.main  .main-t-c-bottom2 span{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 180px;
+	display: inline-block;
+	font-size: 14px;
+}
+.main-top .main-top-content-bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.main-top .main-top-content-bottom>div>a img{
+	width: 224px;
+}
+.main  .main-t-c-bottom2 img{
+	height: 17px;
+	width: 38px;
+	vertical-align: 0px;
+}
+
+.main .main-bottom{
+	height: 450px;
+}
+
+
+.main .main-bottom .main-bottom-title{
+	font-size: 20px;
+	color: #666666;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.main .main-bottom .main-bottom-title a{
+	font-size: 14px;
+	color: #666666;
+	float: right;
+}
+.main .main-bottom .main-bottom-title a:hover{
+	color: #ff3366;
+}
+.main .main-bottom .main-bottom-center>div{
+	border: 1px solid #eeeeee;
+	float: left;
+	margin-right: 12px;
+	width: 390px;
+	display: inline-block;
+}
+.main .main-bottom .main-bottom-center>div:last-child{
+	margin-right: 0px;
+}
+.main .main-bottom .main-bottom-center>div>img{
+	width: 390px;
+	height: 210px;
+	cursor: pointer;
+}
+.main .main-bottom .main-bottom-center div a{
+	margin-top: 16px;
+	margin-right: 15px;
+	width: 115px;
+	height: 160px;
+	float: left;
+}
+.main .main-bottom .main-bottom-center a img{
+	height: 130px;
+	width: 115px;
+}
+.main .main-bottom .main-bottom-center div a:last-child{
+	margin-right: 9px;
+}
+.main .main-bottom .main-bottom-center a p{
+	width: 115px;
+	text-align: center;
+}
+.main .main-bottom .main-bottom-center div a:hover{
+	color: #ff3366;
+}
+.main .main-bottom .main-bottom-center .main-b-c-aone{
+	margin-left: 6px;
+}
+
