@@ -1,2 +1,2 @@
 # 项目展示
-<a href="http://www.baidu.com">百度</a>
+<a target="_blank" href="http://www.baidu.com">百度</a>
