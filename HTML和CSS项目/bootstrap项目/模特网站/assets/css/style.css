@@ -1,0 +1,486 @@
+.vnavbar {
+  background-color: #fff;
+  border-bottom: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.vnavbar .navbar-header a {
+  font-family: 'Srisakdi', cursive;
+  font-size: 40px;
+  color: #fc427b;
+  font-weight: 700;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+.vnavbar .navbar-header a:hover {
+  color: #fc427b;
+}
+.vnavbar .navbar-nav > li > a:hover {
+  color: #fc427b;
+}
+.vnavbar .navbar-nav > li:first-child > a {
+  color: #fc427b;
+}
+.vnavbar .dropdown-menu {
+  background-color: #000;
+}
+.vnavbar .dropdown-menu a {
+  color: #fff;
+}
+.vnavbar .dropdown-menu li:hover {
+  background-color: #fff;
+}
+.vnavbar .dropdown-menu li:hover a {
+  color: #000;
+}
+.vbanner ol li {
+  background-color: #fff;
+}
+.vbanner ol li.active {
+  background-color: #fc427b;
+  border: 3px #fff solid;
+}
+.vbanner .carousel-inner .item {
+  background: url(../images/1.jpg) no-repeat;
+  height: 600px;
+  background-size: 100%;
+}
+.vbanner .carousel-inner .item:nth-child(2) {
+  background: url(../images/2.jpg);
+}
+.vbanner .carousel-inner .item:nth-child(3) {
+  background: url(../images/4.jpg);
+}
+.vbanner .carousel-inner .item .carousel-caption {
+  padding-bottom: 200px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+}
+.vbanner .carousel-inner .item .carousel-caption h5 {
+  color: #000;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.vbanner .carousel-inner .item .carousel-caption h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.vbanner .carousel-inner .item .carousel-caption button {
+  background-color: #fc427b;
+  border: #fff solid 1px;
+  color: #fff;
+}
+.vbanner .carousel-inner .item .carousel-caption button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.content {
+  margin-top: 100px;
+}
+.content .img img {
+  max-width: 100%;
+}
+.content .contleft h3 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+}
+.content .contleft h4 {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: #464646;
+  line-height: 1.9;
+}
+.content .contleft div {
+  padding: 30px 20px;
+}
+.content .contleft div span {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background-color: #fc427b;
+  text-align: center;
+  line-height: 84px;
+  color: #fff;
+  font-size: 30px;
+}
+.content .contleft div h5 {
+  margin: 20px 0px;
+  font-size: 24px;
+}
+.content .contleft div p {
+  color: #999999;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Sintony', sans-serif;
+  line-height: 1.9;
+}
+.middlecotent {
+  background-color: #fc427b;
+  padding: 50px 0;
+}
+.middlecotent div {
+  text-align: center;
+  color: #fff;
+}
+.middlecotent div span {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #fc427b;
+  line-height: 84px;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.middlecotent div h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.middlecotent div p {
+  font-family: 'Sintony', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1px;
+}
+.butcontent {
+  margin-top: 50px;
+}
+.butcontent h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.butcontent p {
+  color: #9d9d9d;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.butcontent .thumbnail {
+  color: #f8f8f8;
+  border: none;
+}
+.butcontent .thumbnail .top {
+  position: relative;
+}
+.butcontent .thumbnail .top a {
+  cursor: pointer;
+}
+.butcontent .thumbnail .top .sep {
+  background-color: #38d2fe;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 82px;
+  height: 69px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+.butcontent .thumbnail .top .sep p {
+  font-size: 26px;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.butcontent .thumbnail .caption h3 {
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+.butcontent .thumbnail .caption ul {
+  text-align: left;
+  padding: 0px;
+  list-style: none;
+  height: 30px;
+}
+.butcontent .thumbnail .caption ul li {
+  float: left;
+  margin-right: 25px;
+}
+.butcontent .thumbnail .caption ul li span {
+  color: #fc427b;
+  margin-right: 5px;
+}
+.butcontent .thumbnail .caption ul li a {
+  color: #9d9daa;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+.butcontent .thumbnail .caption ul li a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+.butcontent .thumbnail .caption p {
+  text-align: left;
+}
+.fourcontent {
+  height: 530px;
+  background: url(../images/bg2.jpg);
+  font-family: 'Poppins', sans-serif;
+  background-size: 100%;
+}
+.fourcontent .fcont {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.fourcontent .fcont span {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 26px;
+  font-weight: bold;
+}
+.fourcontent .fcont h3 {
+  font-size: 32px;
+  margin: 8px 0px 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+.fourcontent .fcont p {
+  color: #eee;
+  font-size: 15px;
+  font-family: 'Sintony', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1px;
+}
+.fivecontent {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+.fivecontent > div {
+  padding: 0px 50px;
+}
+.fivecontent > div h3 {
+  font-size: 28px;
+  margin: 0px 0px 8px;
+  font-weight: 500;
+}
+.fivecontent > div p {
+  color: #999999;
+  font-family: 'Sintony', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.fivecontent > div .fivecont > div {
+  margin-bottom: 25px;
+}
+.fivecontent > div .fivecont > div > img {
+  cursor: pointer;
+  width: 340px;
+}
+.fivecontent > div .fivecont .modal-content {
+  left: -25%;
+  width: 450px;
+}
+.fivecontent > div .fivecont .modal-content .modal-header {
+  border-bottom: none;
+  padding-top: 5px;
+  color: #000;
+}
+.fivecontent > div .fivecont .modal-content .modal-header span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+.fivecontent > div .fivecont .modal-content img {
+  padding: 40px 20px;
+  padding-top: 0px;
+}
+.sixcontent {
+  height: 400px;
+  margin-top: 80px;
+  text-align: center;
+  background: url(../images/bg3.jpg) no-repeat;
+}
+.sixcontent h3 {
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  margin-top: 100px;
+}
+.sixcontent p {
+  color: #E0E0E0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.sixcontent .sixcont input {
+  width: 350px;
+  height: 55px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.sixcontent .sixcont button {
+  width: 350px;
+  height: 55px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.sevencontent {
+  padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 300px;
+}
+.sevencontent h3 {
+  font-size: 28px;
+  margin: 0px 0px 8px;
+  font-weight: 500;
+}
+.sevencontent p {
+  color: #999999;
+  font-family: 'Sintony', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.sevencontent .sevcont {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sevencontent .sevcont .sev-left > div {
+  padding: 40px;
+  margin-bottom: 32px;
+  box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+.sevencontent .sevcont .sev-left > div h5 {
+  margin: 0px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #38d2fe;
+  margin-bottom: 20px;
+}
+.sevencontent .sevcont .sev-left > div p {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.sevencontent .sevcont .sev-right {
+  box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  padding: 40px;
+}
+.sevencontent .sevcont .sev-right h5 {
+  margin: 0px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #38d2fe;
+  margin-bottom: 20px;
+}
+.sevencontent .sevcont .sev-right input {
+  border: none;
+  border-bottom: 1px solid #828282;
+  border-radius: 0em;
+  box-shadow: none;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-style: 15px;
+}
+.sevencontent .sevcont .sev-right input::-webkit-input-placeholder {
+  color: #6d767e;
+}
+.sevencontent .sevcont .sev-right textarea {
+  border: none;
+  border-bottom: 1px solid #828282;
+  border-radius: 0em;
+  box-shadow: none;
+  letter-spacing: 1px;
+  font-style: 15px;
+  resize: none;
+}
+.sevencontent .sevcont .sev-right textarea::-webkit-input-placeholder {
+  color: #6d767e;
+}
+.sevencontent .sevcont .sev-right button {
+  background-color: #fc427b;
+  border-radius: 0em;
+  border: none;
+  height: 50px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.lastcontent {
+  background-color: #212020;
+}
+.lastcontent .lasttop {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.lastcontent .lasttop dl dt {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.lastcontent .lasttop dl dd p {
+  color: #969696;
+  font-family: 'Sintony', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1px;
+}
+.lastcontent .lasttop dl dd h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.lastcontent .lasttop dl dd a {
+  color: #969696;
+  font-family: 'Sintony', sans-serif;
+  text-decoration: none;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.lastcontent .lasttop dl:last-child dd {
+  margin-bottom: 15px;
+}
+.lastcontent .last-md {
+  border-bottom: 1px #ccc solid;
+}
+.lastcontent .lastbottom {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.lastcontent .lastbottom div > span {
+  font-size: 34px;
+  margin-top: 16px;
+  color: #fc427b;
+  cursor: pointer;
+}
+.lastcontent .lastbottom p {
+  color: #969696;
+  font-family: 'Sintony', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.lastcontent .lastbottom p a {
+  color: #fc427b;
+  text-decoration: none;
+}
+.lastcontent .lastbottom p a:hover {
+  color: #fff;
+}
