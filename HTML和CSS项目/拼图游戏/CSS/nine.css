@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+.big{
+	/* background-color: skyblue; */
+	width: 600px;
+	height: 600px;
+	margin: 50px auto;
+	border: 2px #000 solid;
+}
+.big div{
+	float: left;
+	border-right: 1px #fff solid;
+	width: 199px;
+	height: 199px;
+	border-bottom: 1px #fff solid;
+	background: url(../images/bg1.jpg);
+}
+.big .white{
+	background: #fff;
+}
