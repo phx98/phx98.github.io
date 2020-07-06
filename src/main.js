@@ -347,6 +347,7 @@ var mySwiper = new Swiper('.swiper-container', {
     // 如果需要前进后退按钮
     nextButton: null,
     prevButton: null,
+    autoplay : 3000,
 
     // 如果需要滚动条
     scrollbar: '.swiper-scrollbar',
